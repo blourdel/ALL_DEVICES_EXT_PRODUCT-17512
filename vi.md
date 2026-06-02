@@ -266,8 +266,9 @@ Design Partner (Customer) recruitment: leverage existing network monitoring cust
 |---|---|
 | Tier-1 vendor coverage per category | 100% (no  vendor with a market share egal or above 5* unaddressed) |
 | New Hub extensions published | 19  |
-| Extensions activated by customers within 3 months of GA | ≥ 10 per extension |
+| Extensions activated by customers within 3 months of GA | 100% |
 | "Network device not supported" support tickets | Reduction of ≥ xx% YoY after GA |
+| Deal lost at RFP time for lack of SNMP device X,Y,Z,T | None |
 
 ## Cost Analysis
 
