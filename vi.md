@@ -102,7 +102,6 @@ Legend: ✅ dedicated extension/profile — ⚠️ partial or generic coverage �
 | A10 Thunder | ✅ a10-thunder | ❌ | ✅ |
 | VMware AVI (NSX ALB) | ❌ | ❌ | ✅ |
 | Radware Alteon | ❌ | ✅ Radware Alteon (hub) | — (already covered) |
-| Citrix NetScaler | ✅ citrix-netscaler | ❌ | ❌ (not in VI scope) |
 
 ---
 
