@@ -24,6 +24,9 @@ cloud.
 | VMware / Broadcom  | VeloCloud SD-WAN Edge                                      |
 | Juniper Networks   | Session Smart Router (128 Technology), Mist WAN Assurance  |
 
+## Research
+https://virtualizationreview.com/articles/2025/09/18/sase-market-report-leaders-go-beyond-stitched-together-offerings.aspx
+
 ## Out of scope
 
 - ISP managed-WAN gateways without enterprise-managed control plane.
