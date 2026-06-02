@@ -89,7 +89,6 @@ Legend: ✅ dedicated extension/profile — ⚠️ partial or generic coverage �
 | Juniper EX | ✅ juniper-ex | ❌ | ✅ |
 | NVIDIA Mellanox | ✅ nvidia-mellanox-switchx | ❌ | ✅ |
 | Extreme Networks | ✅ extreme-switching | ❌ | ✅ |
-| HPE FlexFabric / Comware | ✅ hp-h3c-switch | ⚠️ HPE H3C Switch (hub) | ✅ (dedicated Comware extension) |
 | Huawei Switches | ✅ huawei-switches | ❌ |  ✅  |
 
 ---
@@ -192,7 +191,6 @@ The criteria to plan execution are:
 - NVIDIA Mellanox
 - Extreme networks
 - Huawei
-- HPE Flex Fabric (Comware)
 
 ### New Load Balancer Extensions
 
@@ -232,19 +230,14 @@ The criteria to plan execution are:
 
 All new extensions uses generic entities, properties and relations to be able to appear in the I&O and/or Network App.
 
-
 ## Non-Functional Requirements
 
-- All extensions published to Dynatrace Hub with documentation.
-- Collection methods:  SNMP, REST API
-
+- Same as the one for any SNMP extension. This VI ports existing feature sets to more device types.
 
 ## Enablement Requirements
 
-- Dynatrace Hub listing for each new extension with feature-set documentation.
-- Solution brief: "Network Observability with Dynatrace" updated to include new coverage.
-- Sales / SE enablement: demo environment with at least one device per category.
-
+Specific to this VI
+- Sales / SE enablement: Demo live and Playground inclusion.
 
 ## E2E Acceptance Criteria
 
@@ -255,27 +248,17 @@ It will be mitigated by the ongoing effort to smoothen the user experience when 
 
 ## Customer Zero Planning
 
-Exact timing to be refined by the engineering team.
-
-| Phase | Activity | Target |
-| --- | --- | --- |
-| Alpha | Internal Dynatrace  lab — test against lab devices or SNMP test file per device category | x weeks |
-| Beta | 1 Design Partner customer per new extension category | x weeks |
-| GA | Hub publication | Following beta sign-off |
-
+EDE: Cisco Nexus extension.
 Design Partner (Customer) recruitment: leverage existing network monitoring customers who have flagged coverage gaps via support tickets or feature requests.
-
 
 ## E2E Demo (for acceptance)
 
- **One environment**: A device defined above with no blank fields.
-
+ **Any environment**: Device defined above with no blank fields.
 
 ## Out of Scope
 
-- All feature set out of : Control plane, interface
-- All relationship out of "interface CALLS interface"
-
+- Feature set out of : Control plane, interface
+- SmartscapeV2 relation out of "interface CALLS interface"
 
 ## Success Metrics
 
@@ -286,16 +269,6 @@ Design Partner (Customer) recruitment: leverage existing network monitoring cust
 | Extensions activated by customers within 3 months of GA | ≥ 10 per extension |
 | "Network device not supported" support tickets | Reduction of ≥ xx% YoY after GA |
 
-
 ## Cost Analysis
 
-To be amended by the engineering team:
-
-| Work item | Estimate |
-|---|---|
-| New extension development (— avg x weeks each × 19 | ~x engineering weeks |
-| Hub documentation and publishing | ~x weeks per extension (~x weeks) |
-| Design Partner onboarding and beta testing | ~x weeks per category (8 categories) = ~x weeks no continuous |
-| Sales / SE enablement brief | ~2 weeks |
-| **Total estimate** | **~x engineering weeks** |
-
+To be filled by the engineering team.
