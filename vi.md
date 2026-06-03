@@ -206,9 +206,10 @@ The criteria to plan execution are:
 
 ### New SD-WAN Extensions
 
-- Versa Networks 
+- Versa Networks
 - VMware / Broadcom VeloCloud
 - HPE Silver Peak
+- Viptela (SNMP) : dependency on DAQ-2296
 
 ### New Wireless LAN Controller Extensions
 
@@ -221,7 +222,7 @@ The criteria to plan execution are:
 
 ### New Wireless Access Point Extensions
 
-- HPE Aruba 
+- HPE Aruba
 - Cisco
 - Extreme Networks
 - Fortinet FortiAP
